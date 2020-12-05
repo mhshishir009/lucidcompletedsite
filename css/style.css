@@ -1,0 +1,544 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3,	h4,	h5,	h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*header-section start*/
+
+.header-section{
+	width: 100%;
+	background: url('../images/banner.png') center top no-repeat;
+	background-size: cover;
+}
+
+.header-section .main-menu{
+	widows: 100%;
+}
+
+.header-section .main-menu .bg-light{
+	background:	transparent !important; 
+}
+
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+    background: url(../images/mh.png) center bottom no-repeat;
+}
+
+.header-section .main-menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 15px;
+}
+
+.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover,.header-section .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #fff;
+    background: url(../images/mh.png) center bottom no-repeat;
+}
+
+.header-section .banner-section{
+	width: 100%;
+	padding: 125px 0px;
+}
+
+.header-section .banner-section h5{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #008ed6;
+	letter-spacing: 2px;
+}
+.header-section .banner-section h1{
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #fff;
+	margin-bottom: 20px;	
+}
+
+.header-section .banner-section p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+	margin-bottom: 35px;
+}
+
+.header-section .banner-section .inner-btn{
+	width: 100%;
+	margin-top: 40px;
+}
+
+.header-section .banner-section .inner-btn .btn-primary{
+	padding: 14px 30px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #fff;
+	background:	 #008ed6;
+	border:	1px solid #008ed6;
+	transition: 1s; 
+}
+.header-section .banner-section .inner-btn .btn-primary:hover,.header-section .banner-section .inner-btn .btn-primary:focus{
+	color: #008ed6;
+	background:	 transparent;
+	border:	1px solid #008ed6;
+}
+.header-section .banner-section .inner-btn .btn-light{
+	padding: 14px 30px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	margin-left: 10px;
+	color: #fff;
+	background:	 transparent;
+	border:	1px solid #fff;
+	transition: 1s;
+}
+
+.header-section .banner-section .inner-btn .btn-light:hover,.header-section .banner-section .inner-btn .btn-light:focus{
+	color: #fff;
+	background:	 #008ed6;
+	border:	1px solid #008ed6;
+}
+
+/* global css for all sections title design*/
+
+.title h5{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #008ed6;
+	letter-spacing: 2px;
+}
+.title h1{
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #000;
+	margin-bottom: 20px;	
+}
+
+/* global css for all sections title design end*/
+
+/* feature-section code start*/
+
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.feature-section .inner-feature{
+	width: 100%;
+	padding: 20px 20px;
+	text-align: center;
+}
+.feature-section .inner-feature .icon-box{
+	width: 100%;
+	margin: 15px 0px;
+}
+
+.feature-section .inner-feature .icon-box .fa{
+	width: 25%;
+	height: 80%;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #eee;
+	border-radius: 80%;
+	color: #008ed6;
+	font-size: 22px;
+}
+
+.feature-section .inner-feature h4{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #000;
+}
+
+.feature-section .inner-feature p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #b4b4b4;	
+}
+
+
+.about-beauty{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+
+.about-beauty .title{
+	margin: 43px 0px 25px 0px;
+}
+
+.about-beauty .content{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #b4b4b4;
+}
+
+.about-beauty .list-para{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #000;
+}
+
+.about-beauty .list-para img{
+	margin-right: 8px;
+}
+
+
+.about-sort{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+
+.about-sort .title{
+	margin: 100px 0px 0px 0px;
+}
+.about-sort .title h1{
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #000;
+	margin-bottom: 20px;	
+}
+
+.about-sort .content{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #b4b4b4;
+}
+
+
+.testimonials{
+	width: 100%;
+	padding: 80px 0px;
+	background: url('../images/Testimonials.png')	center top no-repeat;
+	background-size: cover;
+}
+
+.testimonials .title{
+	padding-bottom: 60px;
+}
+
+.testimonials .title h1{
+	color: #fff;
+}
+
+.testimonials .owl-carousel .item h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #fff;
+	font-style: italic;
+}
+.testimonials .owl-carousel .media{
+	margin-top: 40px;
+}
+.testimonials .owl-carousel .media img{
+	width: 65px;
+	height: 65px;
+	border-radius: 100%;
+
+}
+.testimonials .owl-carousel .media-body{
+
+}
+.testimonials .owl-carousel .media-body h6{
+	margin: 12px 0px 0px !important;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #fff;
+}
+.testimonials .owl-carousel .media-body p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 80px;
+}
+
+
+
+.eye-cather{
+	width: 100%;
+	padding: 40px 0px;
+	background: #15141a;
+}
+.eye-cather h2{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #fff;
+	margin: 0px;
+}
+.eye-cather h2 span{
+	font-weight: 300;
+}
+
+.eye-cather .inner-btn .btn-primary{
+	padding: 14px 30px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #fff;
+	background:	 #008ed6;
+	border:	1px solid #008ed6;
+	transition: 1s; 
+}
+.eye-cather .inner-btn .btn-primary:hover,.eye-cather .inner-btn .btn-primary:focus{
+	color: #008ed6;
+	background:	 transparent;
+	border:	1px solid #008ed6;
+}
+.eye-cather .inner-btn .btn-light{
+	padding: 14px 30px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	margin-right: 15px;
+	color: #fff;
+	background:	 transparent;
+	border:	1px solid #fff;
+	transition: 1s;
+}
+
+.eye-cather .inner-btn .btn-light:hover,.eye-cather .inner-btn .btn-light:focus{
+	color: #fff;
+	background:	 #008ed6;
+	border:	1px solid #008ed6;
+}
+
+.price-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.price-section .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.price-section .card{
+	text-align: center;
+}
+
+.price-section .card .card-header{
+	background: transparent;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 20px 0px;
+}
+
+.price-section .card .card-body{
+	padding: 0px;
+}
+
+.price-section .card .card-body .price-inner{
+	width: 100%;
+	padding: 20px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+.price-section .card .card-body .price-inner .card-title{
+	margin: 0px;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.price-section .card .card-body .price-inner .card-title sup {
+    top: -13px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price-section .card .card-body .price-inner p{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #999;
+	margin: -10px 0px 0px;
+}
+
+.price-section .card .price-text{
+	width: 100%;
+	padding: 30px 28px;
+}
+
+.price-section .card .price-text p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+	margin: 0px;
+}
+
+.price-section .card .price-text a{
+	color: #008ed6;
+	font-weight: 700;
+}
+
+.price-section .card .card-body .btn-primary{
+	margin-bottom: 30px;
+	padding: 14px 30px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #008ed6;
+	background:	 transparent;
+	border:	1px solid #eee;
+	transition: 1s;
+}
+
+.price-section .card:hover .card-body .btn-primary,.price-section .card .card-body .btn-primary:focus{
+	color: #fff;
+	background:	 #008ed6;
+	border:	1px solid #008ed6;
+}
+.price-section .card:hover .card-header{
+	color: #008ed6;
+}
+
+.price-section .card:hover .card-body .price-inner {
+	background: #008ed6;
+	color: #fff;
+}
+.price-section .card .card-body .price-inner p{
+	color: #fff;
+}
+
+.contact-us{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #ededed;
+	margin-bottom: -90px;
+}
+
+.contact-us .title{
+	padding-bottom: 40px;
+}
+
+.contact-us .info-box{
+	width: 100%;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.contact-us .info-box .fa{
+	font-size: 24px;
+	color: #008ed6;
+	margin-bottom: 20px; 
+}
+.contact-us p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+	margin: 0px;
+}
+
+
+.main-form{
+	width: 100%;
+	padding: 70px;
+	background-color: #15141a;
+}
+
+.main-form .form-control{
+	background: transparent;
+	border: 1px solid #444348;
+	color: #444348;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 12px;
+	height: auto;
+}
+
+.main-form .btn-primary{
+	padding: 14px 30px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #fff;
+	background:	 #008ed6;
+	border:	1px solid #008ed6;
+	transition: 1s;
+	margin-top: 10px;
+}
+
+.main-form .btn-primary:hover,.main-form.main-form .btn-primary:focus{
+	color: #008ed6;
+	background:	 transparent;
+	border:	1px solid #008ed6;
+}
+
+.footer-section{
+	width: 100%;
+	padding: 30px 0px;
+	background: #15141a;
+}
+.footer-section .social-icons{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-section .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-section .social-icons li a{
+	font-size: 20px;
+	color: #444348;
+	margin: 0px 10px 10px; 
+}
+
+.footer-section .social-icons li a:hover{
+	color: #008ed6;
+}
+.footer-section p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #444348;
+	margin: 0px;	
+}
